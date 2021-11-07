@@ -17,6 +17,7 @@ import previewNavigation from './preview-navigation';
 import completionProvider from './link-completion';
 import tagCompletionProvider from './tag-completion';
 import linkDecorations from './document-decorator';
+import wikilinkRenameHandler from './wikilink-rename-handler';
 import { FoamFeature } from '../types';
 
 export const features: FoamFeature[] = [
@@ -39,4 +40,5 @@ export const features: FoamFeature[] = [
   previewNavigation,
   completionProvider,
   tagCompletionProvider,
+  wikilinkRenameHandler,
 ];
